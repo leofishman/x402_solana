@@ -1,0 +1,7 @@
+x402_solana_core.config:
+  path: '/admin/config/x402/core'
+  defaults:
+    _form: '\Drupal\x402_solana_core\Form\ConfigForm'
+    _title: 'x402 Solana Settings'
+  requirements:
+    _permission: 'administer site configuration'

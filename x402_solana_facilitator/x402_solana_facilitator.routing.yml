@@ -1,0 +1,7 @@
+x402_solana_facilitator.verify:
+  path: '/x402/verify'
+  defaults:
+    _controller: '\Drupal\x402_solana_facilitator\Controller\FacilitatorController::verify'
+  methods: [POST]
+  requirements:
+    _access: 'TRUE'

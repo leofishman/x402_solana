@@ -1,0 +1,6 @@
+services:
+  x402_solana_core.middleware:
+    class: Drupal\x402_solana_core\Middleware\X402Middleware
+    arguments: ['@http_kernel', '@config.factory', '@messenger']
+    tags:
+      - { name: http_middleware, priority: 200 }

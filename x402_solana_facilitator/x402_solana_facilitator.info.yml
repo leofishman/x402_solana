@@ -1,0 +1,8 @@
+name: 'x402 Solana Facilitator'
+type: module
+description: 'Built-in x402 payment verifier for Solana USDC.'
+core_version_requirement: ^10
+package: x402
+dependencies:
+  - drupal:x402_solana_core
+  
