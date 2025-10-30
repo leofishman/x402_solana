@@ -4,3 +4,7 @@ services:
     arguments: ['@http_kernel', '@config.factory', '@messenger']
     tags:
       - { name: http_middleware, priority: 200 }
+  x402_solana.client:
+    class: Drupal\x402_solana\Service\SolanaClient
+    arguments: ['@config.factory']
+    public: true
