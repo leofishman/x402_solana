@@ -1,0 +1,7 @@
+name: 'x402 Solana Core'
+type: module
+description: 'Core x402 protocol, middleware, and Solana USDC integration.'
+core_version_requirement: ^10
+package: x402
+dependencies:
+  - drupal:token
